@@ -1,2 +1,3 @@
 #!/bin/bash
-sed -i -e 's/\r$//' service httpd start
+cd /var/www/
+service httpd start
