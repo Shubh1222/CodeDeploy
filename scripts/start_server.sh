@@ -1,2 +1,2 @@
 #!/bin/bash
-service httpd start
+sed -i -e 's/\r$//' service httpd start
